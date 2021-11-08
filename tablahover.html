@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.fila:hover {
+ 		background-color: lightgray;
+		}
+
+		input:hover {
+ 		background-color: lightgray;
+		}
+
+		.pointer {
+		cursor: pointer;
+		}	
+
+	</style>
+	<title>Formulario para usuario</title>
+</head>
+<body>
+
+	<table border=2>
+		<tr><th COLSPAN=2>Tabla Hover</th></tr>
+		
+		<tr class="fila">
+			<td>
+				<label for="nombre">Introduce tu nombre</label>
+			</td>
+			<td>
+				<form method="Post" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+				
+  				<input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre..." class="pointer">
+			
+			</td>
+		</tr>	
+		
+		<tr class="fila">
+			<td>
+				<label for="edad">Introduce tu edad</label>
+			</td>
+			<td>
+				<form method="Post" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+				
+  				<input type="number" id="edad" name="edad" placeholder="Escriba su edad..." class="pointer">
+			
+			</td>
+		</tr>	
+			
